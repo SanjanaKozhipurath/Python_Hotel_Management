@@ -1,4 +1,4 @@
-The project is an online booking system for hotels. The system that we are proposing here greatly simplifies the booking process for both the customer and the hotel staff. It presents interactive and up to date options in an easy-to-use manner. It is an integrated system with both the options for the customer to make a booking and the staff to make changes to the hotel's facilities.
+The project is an online booking system for hotels. The system that I are proposing here greatly simplifies the booking process for both the customer and the hotel staff. It presents interactive and up to date options in an easy-to-use manner. It is an integrated system with both the options for the customer to make a booking and the staff to make changes to the hotel's facilities.
 
 It using Python as the front-end and MySQL as the back-end.
 The program works based on database management. It collects all the information provided by the user and then stores it until the end. Every time the customer completes any online booking or makes modifications to his selected preference, his choice is updated and hence functions successfully. 
@@ -9,7 +9,7 @@ The program, when executed, displays two options to the user-Customer, Staff.
 
 If the user chooses the ‘staff’ option:
 A valid ID number (9948) and name is to be entered. An incorrect entry would require verification from the manager. 
-When a correct ID number and name is entered, the staff gets an option to choose between ‘accommodation’ and ‘room services’.   
+When a correct ID number and name is entered, the staff gets an option to choose betIen ‘accommodation’ and ‘room services’.   
 Then the details under the selected option will be displayed to which the staff can make changes (update the price/Add or delete the previously listed items).
 After making the desired changes, the final details will be saved successfully which will then be displayed to the customers.
 
