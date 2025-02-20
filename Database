@@ -1,0 +1,43 @@
+•	create database trial;
+•	use trial;
+
+•	create table main (Sl_No INT, Services VARCHAR(25));
+•	INSERT INTO MAIN value (1,'Room Booking'),(2,'Room Services'),(3,'Add on services');
+
+•	create table roombooking (Sl_No INT,Room VARCHAR(25), Availability INT, Price_per_day INT);
+•	insert into roombooking value (1,"Single",10,140),(2,"Twin",5,250),(3,"Triple",7,630),(4,"Quad",8,759),(5,"Queen",13,367),(6,"King",5,595),(7,"Suite",3,1025);
+
+•	create table roomservices (Sl_No INT, Services VARCHAR(25));
+•	insert into roomservices value (1,'Food'),(2,'Laundry services');
+
+•	create table salads (SL_No INT, Item VARCHAR(30),Price INT);
+•	insert into salads value (1,"Grilled Chicken Salad",10),(2,"Club Salad",10),(3,"Italian Salad",14),(4,"Greek Salad",20),(5,"Mexican Street Corn Salad",15);
+
+•	create table beverages (Sl_No INT, Item VARCHAR(25), Price INT);
+•	 insert into beverages values (1,"Tea",12),(2,"Coffee",15),(3,"Water",5),(4,"Cold Drink",7),(5,"Cocktails",10),(6,"Milkshakes",25),(7,"Fresh Juices",16);
+
+•	create table desserts(Sl_No INT,Item VARCHAR(30),Price INT);
+•	 insert into desserts value(1,'Gulab Jamun',7),(2,"Rasmalai",8),(3,"Kunafa",10),(4,"Luqaimat",4),(5,"Baqlawa",8),(6,"Ice Cream",6),(7,"Brownies",10),(8,"Cheesecake",15),(9,"Chocolate Molten Lava Cake",18),(10,"Tiramisu",9);
+
+
+
+•	create table pasta(Sl_No INT,Item VARCHAR(35),Price INT);
+•	insert into pasta value(1,'Chicken Scaloppini pasta',20),(2,"Creamy Shrimps pasta",20),(3,"Italian Spaghetti",24);
+
+•	create table biriyani(Sl_No INT,Item VARCHAR(35),Price INT);
+•	insert into biriyani value(1,'Mutton Dum biriyani',20),(2,"Chicken biriyani",25),(3,"Fish biriyani",28),(4,"Veg biriyani”,22);
+
+•	create table roti(Sl_No INT,Item VARCHAR(35),Price INT);
+•	insert into roti value(1,'Chapatti',2),(2,"Paratha",3),(3,"Butter Naan",4);
+
+•	create table curry(Sl_No INT,Item VARCHAR(35),Price INT);
+•	insert into curry value(1,'Butter Chicken',20),(2,"Mutton Kurma",25),(3,"Veg Special",24),(4,"Beef Fry",25)
+
+•	create table chaat(Sl_No INT, Item VARCHAR(35), Price INT);
+•	Insert into chaat value(1,'Pav Bhaji',10),(2,'Bhel Puri',12),(3,'Sev Puri',8),(4,'Vada Pav',14),(5,'Dahi Papri Chaat',18);
+
+•	create table quesadillas (SL_No INT, Item VARCHAR(30),Price INT);
+•	 insert into quesadillas value (1,"Grilled shrimp quesadillas",20),(2,"Cheese Quesadilla",15),(3,"Chicken Fajita Quesadilla",18),(4,"Steak Quesadilla Combo Meal",30),(5,"Cheese Quesadilla",25);
+
+•	Create table laundry_services(Sl_No Int, Item VARCHAR(30), Price Int);
+•	insert into laundry_services values(1,'Shirt',5),(2,'T-shirt',4),(3,'Pant/Jeans',10),(4,'Kurta/Kurti',15),(5,'Salwar/Churidar',18),(6,'Dress',10);
