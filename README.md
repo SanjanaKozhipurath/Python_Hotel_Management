@@ -1,28 +1,27 @@
-The project is an online booking system for hotels. The system that I are proposing here greatly simplifies the booking process for both the customer and the hotel staff. It presents interactive and up to date options in an easy-to-use manner. It is an integrated system with both the options for the customer to make a booking and the staff to make changes to the hotel's facilities.
+The Online Hotel Booking System is designed to simplify and enhance the booking experience for both customers and hotel staff. This interactive system provides real-time updates and an intuitive user interface, ensuring a seamless reservation process. It integrates both customer booking functionalities and administrative controls for hotel staff to manage accommodations and services efficiently. The system stores and updates user data dynamically, ensuring that all modifications made by customers or staff are reflected instantly.
 
-It using Python as the front-end and MySQL as the back-end.
-The program works based on database management. It collects all the information provided by the user and then stores it until the end. Every time the customer completes any online booking or makes modifications to his selected preference, his choice is updated and hence functions successfully. 
+Technology Stack:
+Python, MySQL
 
-The Project is carried out in the following ways:
+System Functionality:
+  Upon execution, the system presents two user roles: Customer and Staff.
 
-The program, when executed, displays two options to the user-Customer, Staff.
+  For Hotel Staff:
+  Staff members must log in using a valid ID number (9948) and name. An incorrect entry requires verification from the hotel manager.
+  Once authenticated, staff can choose between two management options:
+    Accommodation Management – Modify room details, update prices, and manage availability.
+    Room Services Management – Add, remove, or adjust room service options such as food and laundry.
+  All changes are saved and reflected in the customer-facing interface.
 
-If the user chooses the ‘staff’ option:
-A valid ID number (9948) and name is to be entered. An incorrect entry would require verification from the manager. 
-When a correct ID number and name is entered, the staff gets an option to choose betIen ‘accommodation’ and ‘room services’.   
-Then the details under the selected option will be displayed to which the staff can make changes (update the price/Add or delete the previously listed items).
-After making the desired changes, the final details will be saved successfully which will then be displayed to the customers.
-
-If the user chooses the ‘customer’ option:
-When the user chooses the customer option, a table called Orders is created in MySQL which saves their orders. 
-Orders are updated into the orders table by the order_food(), services() and order_room() functions. 
-The customers are given the option to add to their bill, delete from their orders, display the bill and to exit the program. 
-The functions of cust_management() are as follows:
-
-1.	room_booking(): This function displays all the available rooms and allows the customer to select the room of their choice, the number of rooms and days. The choices are then updated into the orders table.
-2.	room_services(): This function gives Food, Laundry services as choices to the customers.
-•	Under the food option, the menu is displayed from the customer can select the food according to his choice and price.
-•	Laundry services takes the count of the clothes put for wash.
-3. add_on_services(): This function allows the hotel guests to book a city tour, a flight or bus ticket.
-4. delete_orders(): This option helps the customer was to modify his choice.
-The billing() function is used in preparing a bill/invoice for using the hotel and its facilities.
+  For Customers:
+  When a customer logs in, a table called "Orders" is created in MySQL to store their selections.
+  Customers can perform the following actions:
+    Room Booking: View available rooms, select preferred options, and specify the number of rooms and duration of stay.
+    Room Services:
+      Food Ordering: Displays a menu where customers can select food items along with prices.
+      Laundry Services: Allows customers to specify the number of clothing items for washing.
+    Add-On Services: Book additional amenities such as city tours, flight tickets, or bus reservations.
+    Modify Orders: Customers can add or remove items from their bill before finalizing their booking.
+    Billing and Invoice Generation: The system calculates the total cost and generates an invoice for the customer.
+    
+This project provides an efficient, user-friendly platform for hotel management, enhancing the customer experience while streamlining hotel operations.
